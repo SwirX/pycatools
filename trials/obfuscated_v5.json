@@ -1,0 +1,579 @@
+[
+  {
+    "globalid": "eG",
+    "running": "false",
+    "content": [
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Dufuded",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "Godopor"
+          },
+          {
+            "value": "Daqiduz"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "Wujedef",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!Godopor}",
+                "t": "any"
+              }
+            ],
+            "globalid": "iiU"
+          },
+          {
+            "id": "12",
+            "text": [
+              "Increase",
+              {
+                "value": "Wujedef",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!Daqiduz}",
+                "t": "any"
+              }
+            ],
+            "globalid": "fm"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{Wujedef}",
+                "t": "any"
+              }
+            ],
+            "globalid": "lP"
+          }
+        ],
+        "x": "5950",
+        "y": "4772",
+        "width": "600",
+        "globalid": "ncM9"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Bifelog",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "juyasif"
+          },
+          {
+            "value": "resexav"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "ragukaj",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!juyasif}",
+                "t": "any"
+              }
+            ],
+            "globalid": "DQ"
+          },
+          {
+            "id": "13",
+            "text": [
+              "Decrease",
+              {
+                "value": "ragukaj",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!resexav}",
+                "t": "any"
+              }
+            ],
+            "globalid": "8emd"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{ragukaj}",
+                "t": "any"
+              }
+            ],
+            "globalid": "dt"
+          }
+        ],
+        "x": "5515",
+        "y": "4422",
+        "width": "600",
+        "globalid": "uO24"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Segeteh",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "siwipat"
+          },
+          {
+            "value": "lugetav"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "cigujip",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!siwipat}",
+                "t": "any"
+              }
+            ],
+            "globalid": "ED"
+          },
+          {
+            "id": "14",
+            "text": [
+              "Multiply",
+              {
+                "value": "cigujip",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!lugetav}",
+                "t": "any"
+              }
+            ],
+            "globalid": "bBhO"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{cigujip}",
+                "t": "any"
+              }
+            ],
+            "globalid": "gJ"
+          }
+        ],
+        "x": "4427",
+        "y": "5731",
+        "width": "600",
+        "globalid": "VI"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Yonitem",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "hoqomut"
+          },
+          {
+            "value": "Negiyal"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "yoloyos",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!hoqomut}",
+                "t": "any"
+              }
+            ],
+            "globalid": "LL"
+          },
+          {
+            "id": "15",
+            "text": [
+              "Divide",
+              {
+                "value": "yoloyos",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!Negiyal}",
+                "t": "any"
+              }
+            ],
+            "globalid": "QqT"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{yoloyos}",
+                "t": "any"
+              }
+            ],
+            "globalid": "IPJS"
+          }
+        ],
+        "x": "5186",
+        "y": "5298",
+        "width": "600",
+        "globalid": "SMm"
+      },
+      {
+        "y": "4628",
+        "x": "4874.6162109375",
+        "globalid": "dD",
+        "id": "0",
+        "text": [
+          "When website loaded..."
+        ],
+        "actions": [
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "hozubub",
+                "l": "function",
+                "t": "string"
+              },
+              {
+                "value": [
+                  {
+                    "value": "5",
+                    "l": "any",
+                    "t": "string"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "huvowog",
+                "l": "variable?",
+                "t": "string"
+              }
+            ],
+            "globalid": "RBa"
+          },
+          {
+            "id": "0",
+            "text": [
+              "Log",
+              {
+                "value": "{huvowog}",
+                "t": "any"
+              }
+            ],
+            "globalid": "cFj6"
+          }
+        ],
+        "width": "647"
+      },
+      {
+        "y": "4845",
+        "variable_overrides": [
+          {
+            "value": "Wezupat"
+          }
+        ],
+        "x": "4893",
+        "globalid": "VebD",
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "hozubub",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "actions": [
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "{l!Wezupat}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "7j0f"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "1",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "OaY"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "9Pe"
+          },
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "lugihig",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!Wezupat}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "yfM"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "Bifelog",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!Wezupat}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!Wezupat",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "ZE"
+          },
+          {
+            "id": "22",
+            "text": [
+              "Repeat",
+              {
+                "value": "{l!Wezupat}",
+                "t": "number"
+              },
+              "times"
+            ],
+            "globalid": "3oY"
+          },
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "{l!Wezupat}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "Mo"
+          },
+          {
+            "id": "24",
+            "text": [
+              "Break"
+            ],
+            "globalid": "rS"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "LrC"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "Segeteh",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{lugihig}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "{l!Wezupat}",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "lugihig",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "1nZU"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "Bifelog",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!Wezupat}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!Wezupat",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "mJ42"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "5PaF"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{lugihig}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "of5o"
+          }
+        ],
+        "width": "350"
+      }
+    ],
+    "class": "script"
+  }
+]

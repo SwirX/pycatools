@@ -542,5 +542,5 @@ Example collision: ID 0 = "When website loaded" (event) OR "Log `<any>`" (action
 ## Cross-References
 
 - **For action details & logic:** See CatDocs (main reference)
-- **For UI structure:** See CatWeb UI JSON Spec
+- **For UI structure:** See CatUI JSON Spec
 - **Usage:** This document pairs with CatDocs for complete scripting knowledge

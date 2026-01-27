@@ -1,0 +1,579 @@
+[
+  {
+    "globalid": "Pw8P",
+    "running": "false",
+    "content": [
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "logan",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "Fuji"
+          },
+          {
+            "value": "king"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "call",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!Fuji}",
+                "t": "any"
+              }
+            ],
+            "globalid": "Cbi"
+          },
+          {
+            "id": "12",
+            "text": [
+              "Increase",
+              {
+                "value": "call",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!king}",
+                "t": "any"
+              }
+            ],
+            "globalid": "6K"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{call}",
+                "t": "any"
+              }
+            ],
+            "globalid": "OKzB"
+          }
+        ],
+        "x": "5516",
+        "y": "5189",
+        "width": "600",
+        "globalid": "SHl"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "lender",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "criteria"
+          },
+          {
+            "value": "Anything"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "Lakes",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!criteria}",
+                "t": "any"
+              }
+            ],
+            "globalid": "aG"
+          },
+          {
+            "id": "13",
+            "text": [
+              "Decrease",
+              {
+                "value": "Lakes",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!Anything}",
+                "t": "any"
+              }
+            ],
+            "globalid": "HD1"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{Lakes}",
+                "t": "any"
+              }
+            ],
+            "globalid": "Oo"
+          }
+        ],
+        "x": "4628",
+        "y": "5796",
+        "width": "600",
+        "globalid": "04"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Certificate",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "Takes"
+          },
+          {
+            "value": "fire"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "fool",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!Takes}",
+                "t": "any"
+              }
+            ],
+            "globalid": "hpP"
+          },
+          {
+            "id": "14",
+            "text": [
+              "Multiply",
+              {
+                "value": "fool",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!fire}",
+                "t": "any"
+              }
+            ],
+            "globalid": "N9P"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{fool}",
+                "t": "any"
+              }
+            ],
+            "globalid": "zo"
+          }
+        ],
+        "x": "4489",
+        "y": "4360",
+        "width": "600",
+        "globalid": "Tr"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "legs",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "supervisor"
+          },
+          {
+            "value": "leaves"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "ctrl",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!supervisor}",
+                "t": "any"
+              }
+            ],
+            "globalid": "jYNK"
+          },
+          {
+            "id": "15",
+            "text": [
+              "Divide",
+              {
+                "value": "ctrl",
+                "l": "variable",
+                "t": "string"
+              },
+              "by",
+              {
+                "value": "{l!leaves}",
+                "t": "any"
+              }
+            ],
+            "globalid": "8Y"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{ctrl}",
+                "t": "any"
+              }
+            ],
+            "globalid": "P4c"
+          }
+        ],
+        "x": "5821",
+        "y": "5998",
+        "width": "600",
+        "globalid": "rE"
+      },
+      {
+        "y": "4628",
+        "x": "4874.6162109375",
+        "globalid": "56",
+        "id": "0",
+        "text": [
+          "When website loaded..."
+        ],
+        "actions": [
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "Thought",
+                "l": "function",
+                "t": "string"
+              },
+              {
+                "value": [
+                  {
+                    "value": "5",
+                    "l": "any",
+                    "t": "string"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "Presentations",
+                "l": "variable?",
+                "t": "string"
+              }
+            ],
+            "globalid": "fs"
+          },
+          {
+            "id": "0",
+            "text": [
+              "Log",
+              {
+                "value": "{Presentations}",
+                "t": "any"
+              }
+            ],
+            "globalid": "m9"
+          }
+        ],
+        "width": "647"
+      },
+      {
+        "y": "4845",
+        "variable_overrides": [
+          {
+            "value": "andy"
+          }
+        ],
+        "x": "4893",
+        "globalid": "F2",
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Thought",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "actions": [
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "{l!andy}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "VO"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "1",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "aMBV"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "o7"
+          },
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "roles",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!andy}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "a9z"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "lender",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!andy}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!andy",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "Pa"
+          },
+          {
+            "id": "22",
+            "text": [
+              "Repeat",
+              {
+                "value": "{l!andy}",
+                "t": "number"
+              },
+              "times"
+            ],
+            "globalid": "aD"
+          },
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "{l!andy}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "vO"
+          },
+          {
+            "id": "24",
+            "text": [
+              "Break"
+            ],
+            "globalid": "xz"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "ok"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "Certificate",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{roles}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "{l!andy}",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "roles",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "J0"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "lender",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!andy}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!andy",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "rz"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "FeH"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{roles}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "Rf"
+          }
+        ],
+        "width": "350"
+      }
+    ],
+    "class": "script"
+  }
+]

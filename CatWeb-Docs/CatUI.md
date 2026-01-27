@@ -579,7 +579,7 @@ Limits text size scaling (text elements only).
 ## Cross-References
 
 - **For scripting logic:** See CatDocs (main reference document)
-- **For script JSON structure:** See json-rulings.md (pairs with CatDocs)
+- **For script JSON structure:** See CatScript.md (pairs with CatDocs)
 - **For CatWeb game info:** Premium costs 119 Robux, Cookies gamepass 35 Robux (regional pricing may apply)
 
 ---

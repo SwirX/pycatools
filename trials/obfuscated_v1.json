@@ -1,0 +1,682 @@
+[
+  {
+    "globalid": "aoJw",
+    "running": "false",
+    "content": [
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "Rvzzvv",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "a"
+          },
+          {
+            "value": "b"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "to",
+              {
+                "value": "{l!a}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "Kz"
+          },
+          {
+            "id": "12",
+            "text": [
+              "Increase",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "by",
+              {
+                "value": "{l!b}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "3Tr"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{l!res}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "Sng"
+          }
+        ],
+        "x": "4632",
+        "y": "5817",
+        "width": "600",
+        "globalid": "CLdT"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "haCnSO",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "a"
+          },
+          {
+            "value": "b"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "to",
+              {
+                "value": "{l!a}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "sO0"
+          },
+          {
+            "id": "13",
+            "text": [
+              "Decrease",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "by",
+              {
+                "value": "{l!b}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "Wmgw"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{l!res}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "zSG"
+          }
+        ],
+        "x": "5997",
+        "y": "5581",
+        "width": "600",
+        "globalid": "FC"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "XicAwn",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "a"
+          },
+          {
+            "value": "b"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "to",
+              {
+                "value": "{l!a}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "kd"
+          },
+          {
+            "id": "14",
+            "text": [
+              "Multiply",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "by",
+              {
+                "value": "{l!b}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "I35X"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{l!res}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "fs"
+          }
+        ],
+        "x": "5190",
+        "y": "5361",
+        "width": "600",
+        "globalid": "RLR"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "jKZBtm",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [
+          {
+            "value": "a"
+          },
+          {
+            "value": "b"
+          }
+        ],
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "to",
+              {
+                "value": "{l!a}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "4n"
+          },
+          {
+            "id": "15",
+            "text": [
+              "Divide",
+              {
+                "value": "l!res",
+                "t": "string",
+                "l": "variable"
+              },
+              "by",
+              {
+                "value": "{l!b}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "NS"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{l!res}",
+                "t": "any",
+                "l": "any"
+              }
+            ],
+            "globalid": "ewr"
+          }
+        ],
+        "x": "5980",
+        "y": "4414",
+        "width": "600",
+        "globalid": "iyY2"
+      },
+      {
+        "y": "4628",
+        "x": "4874.6162109375",
+        "globalid": "c7Y",
+        "id": "0",
+        "text": [
+          "When website loaded..."
+        ],
+        "actions": [
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "FpCwYI",
+                "l": "function",
+                "t": "string"
+              },
+              {
+                "value": [
+                  {
+                    "value": "5",
+                    "l": "any",
+                    "t": "string"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "cVYMjG",
+                "l": "variable?",
+                "t": "string"
+              }
+            ],
+            "globalid": "8Xjx"
+          },
+          {
+            "id": "0",
+            "text": [
+              "Log",
+              {
+                "value": "{cVYMjG}",
+                "t": "any"
+              }
+            ],
+            "globalid": "CM"
+          }
+        ],
+        "width": "647"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "JepGoV",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [],
+        "actions": [
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "{l!lqImac}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "V2"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "1",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "LEO"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "IihS"
+          },
+          {
+            "id": "11",
+            "text": [
+              "Set",
+              {
+                "value": "HgZYPq",
+                "l": "variable",
+                "t": "string"
+              },
+              "to",
+              {
+                "value": "{l!lqImac}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "FkZ"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "haCnSO",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!lqImac}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!lqImac",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "UiV"
+          },
+          {
+            "id": "22",
+            "text": [
+              "Repeat",
+              {
+                "value": "{l!lqImac}",
+                "t": "number"
+              },
+              "times"
+            ],
+            "globalid": "h6S"
+          },
+          {
+            "id": "124",
+            "text": [
+              {
+                "value": "MYXHVZhPPFLWFuE",
+                "t": "string",
+                "l": "comment"
+              }
+            ],
+            "globalid": "4lV"
+          }
+        ],
+        "x": "3848",
+        "y": "2886",
+        "width": "396",
+        "globalid": "wdX"
+      },
+      {
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "GAdPDu",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "variable_overrides": [],
+        "actions": [
+          {
+            "id": "18",
+            "text": [
+              "If",
+              {
+                "value": "[l!number}",
+                "l": "any",
+                "t": "string"
+              },
+              "is equal to",
+              {
+                "value": "0",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "rl"
+          },
+          {
+            "id": "24",
+            "text": [
+              "Break"
+            ],
+            "globalid": "Oow"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "kH"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "XicAwn",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{HgZYPq}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "{l!lqImac}",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "HgZYPq",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "8ARm"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "haCnSO",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [
+                  {
+                    "value": "{l!lqImac}",
+                    "t": "any",
+                    "l": "any"
+                  },
+                  {
+                    "value": "1",
+                    "t": "number",
+                    "l": "any"
+                  }
+                ],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "l!lqImac",
+                "l": "variable",
+                "t": "string"
+              }
+            ],
+            "globalid": "kmQT"
+          },
+          {
+            "id": "25",
+            "text": [
+              "end"
+            ],
+            "globalid": "yE9"
+          },
+          {
+            "id": "115",
+            "text": [
+              "Return",
+              {
+                "value": "{HgZYPq}",
+                "l": "any",
+                "t": "string"
+              }
+            ],
+            "globalid": "tuI"
+          }
+        ],
+        "x": "4630",
+        "y": "5867",
+        "width": "413",
+        "globalid": "LLw"
+      },
+      {
+        "y": "4845",
+        "variable_overrides": [
+          {
+            "value": "lqImac"
+          }
+        ],
+        "x": "4893",
+        "globalid": "iYU",
+        "id": "6",
+        "text": [
+          "Define function",
+          {
+            "value": "FpCwYI",
+            "t": "string",
+            "l": "function"
+          }
+        ],
+        "actions": [
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "JepGoV",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "",
+                "l": "variable?",
+                "t": "string"
+              }
+            ],
+            "globalid": "Zf"
+          },
+          {
+            "id": "87",
+            "text": [
+              "Run function",
+              {
+                "value": "GAdPDu",
+                "t": "string",
+                "l": "function"
+              },
+              {
+                "value": [],
+                "t": "tuple"
+              },
+              "→",
+              {
+                "value": "",
+                "l": "variable?",
+                "t": "string"
+              }
+            ],
+            "globalid": "TN"
+          }
+        ],
+        "width": "350"
+      }
+    ],
+    "class": "script"
+  }
+]

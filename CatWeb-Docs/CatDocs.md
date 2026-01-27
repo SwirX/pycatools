@@ -1121,8 +1121,8 @@ When generating scripts, use emoji formatting for clarity.
 
 **For AI Assistants:**
 - Use this document as primary CatWeb reference
-- Pair with json-rulings.md for JSON generation
-- UI JSON Spec provides element structure details
+- Pair with CatScript.md for JSON generation
+- CatUI.md provides element structure details
 - Never assume features not documented here
 - Ask for clarification on ambiguous requests
 - Inform users of gamepass requirements

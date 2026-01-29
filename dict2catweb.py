@@ -94,18 +94,34 @@ def add_set(key, value, table, f, fun_id):
             'globalid': id_gen()
         }
     )
-    
 
-# const numberToLetters = (n) => {
-#   let s = "";
-#   n = n + 1;
-#   while (n > 0) {
-#     n--;
-#     s = String.fromCharCode(97 + (n % 26)) + s;
-#     n = Math.floor(n / 26);
-#   }
-#   return s;
-# };
+def add_insert(value, table, f, fun_id):
+    f['content'][find_fun(f, fun_id)]['actions'].append(
+        {
+            "id": "89",
+            "globalid": id_gen(),
+            "text": [
+                "Insert",
+                {
+                    "value": "{" + value + "}",
+                    "l": "any",
+                    "t": "string"
+                },
+                "at position",
+                {
+                    "l": "number?",
+                    "t": "number"
+                },
+                "of",
+                {
+                    "value": table,
+                    "l": "array",
+                    "t": "string"
+                }
+            ]
+        }
+    )
+
 
 def n2l(n) -> str:
     s = ''
@@ -117,39 +133,39 @@ def n2l(n) -> str:
     
     return s  
 
-def convert(data:dict, songs_pblock=30):
-    f = create_file('songs')
+def convert(data:list, item_per_block=30):
+    file = create_file('projects')
     
-    # init songs list
-    blockid, x, y = add_fun_wwloaded(f, 0, 0, 450)
-    add_create_tbl('songs', f, blockid)
+    blockid, x, y = add_fun_wwloaded(file, 0, 0, 450)
+    add_create_tbl('projects', file, blockid)
     
     # init values
     idx = -1
     blockid = None
     
     #start iterating
-    for songid, info in data.items():
+    for i, project in enumerate(data):
         idx += 1
         # make a new block each 30 song (180 sub-blocks)
-        if idx % songs_pblock == 0:
-            blockid, x, y = add_fun_wwloaded(f, x, y, 450)
+        if idx % item_per_block == 0:
+            blockid, x, y = add_fun_wwloaded(file, x, y, 450)
         name = 'item_' + n2l(idx)
         
-        # making a song obj
-        add_create_tbl(name, f, blockid)
-        add_set('title', info['title'], name, f, blockid)
-        add_set('artist', info['artist'], name, f, blockid)
-        add_set('decal', info['decal'], name, f, blockid)
-        add_set('genres', info['genres'], name, f, blockid)
+        add_create_tbl(name, file, blockid)
+        #print(project)
+        for k, v in project.items():
+            add_set(k, v, name, file, blockid)
         
-        # setting key -> song in songs table
-        add_set(songid, '{'+name+'}', 'songs', f, blockid)
-    
-    return f
+        #add_set(i, '{'+name+'}', 'projects', file, blockid)
+        add_insert(name, 'projects', file, blockid)
+
+
+    return file
 
 
 if __name__ == '__main__':
-    with open(argv[1]) as f:
-        with open(argv[1].split('/')[-1], 'w+') as nf:
+    path = argv[1]
+    print(path)
+    with open(path) as f:
+        with open(path.split('/')[-1], 'w+') as nf:
             json.dump([convert(json.load(f))], nf, indent=4)

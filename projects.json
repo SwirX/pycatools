@@ -1,0 +1,805 @@
+[
+    {
+        "class": "script",
+        "globalid": "jwxatt",
+        "alias": "projects",
+        "content": [
+            {
+                "x": 0,
+                "y": 0,
+                "globalid": "jilwvx",
+                "id": "0",
+                "text": [
+                    "When Website loaded..."
+                ],
+                "actions": [
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "projects",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "zkwtns"
+                    }
+                ]
+            },
+            {
+                "x": 450,
+                "y": 0,
+                "globalid": "gomjul",
+                "id": "0",
+                "text": [
+                    "When Website loaded..."
+                ],
+                "actions": [
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_a",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "anlmkm"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_a",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Lyra",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "rygaip"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_a",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 112851926538770,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "wsruvj"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_a",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "lyra.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "dgqtyj"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_a",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Where music meets design. Lyra brings audio to life",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "fllqfe"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "wlgsda",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_a}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_b",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "djjrzc"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_b",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Excalidraw",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "izriqu"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_b",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 0,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "fpajad"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_b",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "excalidraw.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "slovvs"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_b",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "jnvrmo"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "decqqo",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_b}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_c",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "rkjrxf"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_c",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "TKBG",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "mjbker"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_c",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 0,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "clszfj"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_c",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "keyboardgame.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "eaqixt"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_c",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "ytdkil"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "ggtriv",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_c}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_d",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "swjlbx"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_d",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Linkr",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "gbocsp"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_d",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 94774869988118,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "jtzpzm"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_d",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "linkr.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "tjggfu"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_d",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Shrink your links, not your reach",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "nqxgck"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "pivxkl",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_d}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_e",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "ffyogr"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_e",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "TCG",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "nvocji"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_e",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 0,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "uefqxk"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_e",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "cookiesgame.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "rmdgav"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_e",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "kjswjr"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "jqlwlp",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_e}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "text": [
+                            "Create table",
+                            {
+                                "value": "item_f",
+                                "t": "string",
+                                "l": "table"
+                            }
+                        ],
+                        "globalid": "janajj"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "name",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_f",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Codra",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "nnwoxf"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "decal",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_f",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": 0,
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "jnubcc"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "url",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_f",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "codra.rbx",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "rmjsfb"
+                    },
+                    {
+                        "id": "55",
+                        "text": [
+                            "Set entry",
+                            {
+                                "value": "slogan",
+                                "t": "string",
+                                "l": "entry"
+                            },
+                            "of",
+                            {
+                                "value": "item_f",
+                                "t": "string",
+                                "l": "table"
+                            },
+                            "to",
+                            {
+                                "value": "Your Database, Simplified",
+                                "t": "any"
+                            }
+                        ],
+                        "globalid": "jvbjlg"
+                    },
+                    {
+                        "id": "89",
+                        "globalid": "pjcblb",
+                        "text": [
+                            "Insert",
+                            {
+                                "value": "{item_f}",
+                                "l": "any",
+                                "t": "string"
+                            },
+                            "at position",
+                            {
+                                "l": "number?",
+                                "t": "number"
+                            },
+                            "of",
+                            {
+                                "value": "projects",
+                                "l": "array",
+                                "t": "string"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
